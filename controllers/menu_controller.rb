@@ -21,7 +21,7 @@ class MenuController
 		case selection
 		when 1
 			system "clear"
-			view_all_entrieschi
+			view_all_entries
 			main_menu
 		when 2
 			system "clear"
