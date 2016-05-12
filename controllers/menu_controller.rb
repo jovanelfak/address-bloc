@@ -50,7 +50,7 @@ class MenuController
 			system "clear"
 			puts x.to_s
 
-			entry_submenu(entry)
+			entry_submenu(x)
 		end
 		system "clear"
 		puts "End of entries"
