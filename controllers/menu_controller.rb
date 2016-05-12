@@ -63,7 +63,7 @@ class MenuController
 		print "Name: "
 		name = gets.chomp
 		print "Phone number: "
-		phone = gets.chomp
+		phone_number = gets.chomp
 		print "Email: "
 		email = gets.chomp
 
@@ -78,6 +78,27 @@ class MenuController
 	end
 
 	def read_csv
+
+	end
+	def entry_submenu(entry)
+		puts "n - next entry"
+		puts "d - delete entry"
+		puts "e - edit this entry"
+		puts "m - return to main menu"
+		selection = gets.chomp
+
+		case selection
+		when "n"
+		when "d"
+		when "e"
+		when "m"
+		system "clear"
+		main_menu
+		else system "clear"
+		puts "#{selection} is not a valid input"
+		entry_submenu(entry)
+		end 
+
 
 	end
 
