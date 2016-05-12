@@ -17,7 +17,7 @@ class MenuController
 		puts "5 - Exit"
 		print "Enter your selection: "
 
-		selection - gets.to_i
+		selection = gets.to_i
 		puts "You picked #{selection}"
 	end
 
