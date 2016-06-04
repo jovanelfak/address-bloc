@@ -36,6 +36,9 @@ class AddressBook
 
 		end
 	end
+	def nuke
+		@entries = []
+	end
 	def iterative_search(name)
 		@entries.each do |entry|
 			if entry.name == name
